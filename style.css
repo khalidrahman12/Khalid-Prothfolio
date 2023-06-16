@@ -1,0 +1,27 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 20%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 150%;
+    padding-left: 110%;
+    display: flex;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5%;
+}
