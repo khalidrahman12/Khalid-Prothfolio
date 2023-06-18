@@ -1,27 +1,43 @@
-body{
-font-family: Georgia, 'Times New Roman', Times, serif;}
-h1{
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 {
     font-size: 50px;
 }
-.name{
+
+.name {
     color: orange;
 }
-section{
+
+section {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 20%;
     padding-left: 5%;
 }
-.half-width img{
+
+.half-width img {
     width: 150%;
-    padding-left: 110%;
+    padding-left: 120%;
     display: flex;
+    padding-top: 8px;
+    
+    
 }
-.button1{
+
+.button1 {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 5%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
